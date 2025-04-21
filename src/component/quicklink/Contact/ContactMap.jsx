@@ -21,7 +21,7 @@ const ContactMap = () => {
       zoom={20}
       style={{
         height: "70vh",
-        width: "97%",
+        width: "100%",
         margin: "auto",
         marginBottom: "45px",
         minHeight: "300px",

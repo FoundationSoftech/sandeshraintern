@@ -10,6 +10,7 @@ import { useProductcontext } from './Context.jsx'
 import FooterLogo from './FooterLogo.jsx'
 import Footer from './Footer.jsx'
 import Scroller from './Scroller.jsx'
+import Short from './Short.jsx'
 
 const Home = () => {
   const {Blocks} = useProductcontext()
@@ -17,12 +18,13 @@ const Home = () => {
   return (
     <div>
 <Header/>
+<Short/>
 <Bannerpic/>
 <Bannervid/>
 <Brand/>
-<Scroller Blocks ={Blocks} title="In Demand"/> 
+<Scroller Blocks ={Blocks} title="In Demand" link="trending"/> 
 <Categories/> 
-<Scroller Blocks ={Arrivals} title="Fresh Drop"/>
+<Scroller Blocks ={Arrivals} title="Fresh Drop" link="newarrival"/>
 <FooterLogo/> 
 <Footer/>
     </div>

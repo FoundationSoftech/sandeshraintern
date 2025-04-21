@@ -1,17 +1,25 @@
 import React, { useState } from "react";
 import "./Shoesize.css";
+import { useFavorite } from "./Favouriteprovider";
 
-function Shoesize() {
-  // State to track the currently selected size
+function Shoesize({ shoeid }) {
   const [activeSize, setActiveSize] = useState(null);
+  const { addfavorite, favorites } = useFavorite();
 
-  // Generate sizes from 5 to 12 (inclusive) with 0.5 increments
+  const handleSizeClick = (size,shoeid) => {
+    setActiveSize(size);
+    addfavorite((prevFavorites) =>
+      prevFavorites.map((item) =>
+        item.id === shoeid ? { ...item, size } : item
+      )
+    );
+  };
+
   const sizes = [];
   for (let i = 5; i <= 12; i += 0.5) {
     sizes.push(i);
   }
 
-  // Create rows with 4 sizes per row
   const rows = [];
   for (let i = 0; i < sizes.length; i += 4) {
     rows.push(sizes.slice(i, i + 4));
@@ -19,14 +27,14 @@ function Shoesize() {
 
   return (
     <div className="button-container">
-      <h1>Select Size</h1>
+      <h1 className="text-2xl font-normal">Select Size</h1>
       {rows.map((row, rowIndex) => (
         <div key={rowIndex} className="row">
           {row.map((size) => (
             <button
               key={size}
               className={`btn ${activeSize === size ? "active" : ""}`}
-              onClick={() => setActiveSize(size)}
+              onClick={() => handleSizeClick(size)}
             >
               {size}
             </button>

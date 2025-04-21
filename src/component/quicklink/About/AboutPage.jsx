@@ -1,24 +1,34 @@
-
 import React from "react";
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import Testimonial from "./Testamonial";
 
 const AboutUs = () => {
+  const navigate = useNavigate(); // Hook for navigation
+
   // Animation variants
   const fadeIn = {
     hidden: { opacity: 0, y: 20 },
-    visible: { 
-      opacity: 1, 
+    visible: {
+      opacity: 1,
       y: 0,
-      transition: { duration: 1 }
+      transition: { duration: 3 }
     }
   };
 
   return (
-    <div className=" bg-white">
+    <div className="bg-white">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center bg-neutral-100">
+        {/* Back Button */}
+        <button
+          onClick={() => navigate(-1)} // Navigate back to the previous page
+          className=" absolute top-4 left-4 text-white text-3xl bg-transparent p-2 rounded-full  z-10  transition-all"
+        >
+          &#8592; {/* Left arrow symbol */}
+        </button>
+
         <div 
           className="absolute inset-0 bg-cover bg-center z-0"
           style={{ 
@@ -43,7 +53,7 @@ const AboutUs = () => {
             variants={fadeIn}
             transition={{ delay: 0.2 }}
           >
-Selling premium footwear since 2010—where tradition meets innovative style.
+            Selling Premium Footwear Since 2015—Where Tradition Meets Innovative Style.
           </motion.p>
         </div>
         
@@ -84,12 +94,13 @@ Selling premium footwear since 2010—where tradition meets innovative style.
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Our Story</h2>
                 <div className="w-20 h-1 bg-gray-800 mb-8"></div>
                 <p className="text-lg text-gray-600 mb-6">
-                Our journey began with a single step and a dream—to redefine comfort, style, and quality in footwear. What started as a small passion project quickly grew into a thriving enterprise, thanks to our relentless dedication and love for shoes. We believe that shoes are not just an accessory but an extension of your personality and a crucial part of your everyday adventures.
-
-Over the years, we have carefully curated a collection that combines timeless craftsmanship with modern design. Every pair we offer is a product of meticulous attention to detail, innovative technology, and an unwavering commitment to quality. Our success is driven by our valued customers, whose feedback and support inspire us to continually raise the bar.
+                  Our journey began with a single step and a dream—to redefine comfort, style, and quality in footwear. What started as a small passion project quickly grew into a thriving enterprise, thanks to our relentless dedication and love for shoes. We believe that shoes are not just an accessory but an extension of your personality and a crucial part of your everyday adventures.
+                  <br />
+                  <br />
+                  Over the years, we have carefully curated a collection that combines timeless craftsmanship with modern design. Every pair we offer is a product of meticulous attention to detail, innovative technology, and an unwavering commitment to quality. Our success is driven by our valued customers, whose feedback and support inspire us to continually raise the bar.
                 </p>
                 <p className="text-lg text-gray-600">
-                Today, we stand proud as one of the best sellers in the industry, always striving to create footwear that not only complements your style but also empowers you to take on the world—one confident step at a time.
+                  Today, we stand proud as one of the best sellers in the industry, always striving to create footwear that not only complements your style but also empowers you to take on the world—one confident step at a time.
                 </p>
               </motion.div>
             </div>
@@ -97,15 +108,11 @@ Over the years, we have carefully curated a collection that combines timeless cr
         </div>
       </section>
       <div>
-<h1 className="text-center text-3xl font-bold mb-5 text-red-500">Testamonial</h1>
-<Testimonial/>
+        <h1 className="text-center text-3xl font-bold mb-5 text-red-500">Testamonial</h1>
+        <Testimonial />
       </div>
-      
     </div>
-    
   );
 };
-
-
 
 export default AboutUs;

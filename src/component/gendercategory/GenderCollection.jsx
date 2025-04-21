@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Header from '../Home/Header';
 import Footer from '../Home/Footer';
 import { useNavigate } from 'react-router-dom';
-import { nav } from 'framer-motion/client';
 
 const GenderCollection = ({ Collection,Category }) => {
   let numbershoes = Collection.length;
@@ -10,7 +9,8 @@ const GenderCollection = ({ Collection,Category }) => {
   const Navigateto  =(id)=>{
     navigate(`/details/${id}`)
 
-  } 
+  }
+   
   return (
     <>
       <Header />
@@ -30,6 +30,11 @@ const Card = ({ data,Navigateto }) => {
   const [show, setShow] = useState(false);
   const [image, setImage] = useState(data.image[0]); // Unique state per card
 
+  const nepaliFormatter = new Intl.NumberFormat('ne-NP', {
+    style: 'currency',
+    currency: 'NPR',
+    maximumFractionDigits: 0
+  });
   return (
     <div
       onMouseEnter={() => setShow(true)}
@@ -60,7 +65,7 @@ const Card = ({ data,Navigateto }) => {
           ))}
         </div>
         <h3 className="text-red-600 ml-1 transition-opacity duration-500 delay-300">{data.name}</h3>
-        <h3 className="ml-1 transition-opacity duration-500 delay-300">{data.Price}</h3>
+        <h3 className="ml-1 transition-opacity duration-500 delay-300"> {nepaliFormatter.format(data.Price)}</h3>
       </div>
 
       {/* Info box */}

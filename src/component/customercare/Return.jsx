@@ -58,29 +58,29 @@ const Return = () => {
     <div>
     <Header/>
     <div className='  w-[95%] mx-auto  p-4'>
-    <p className='mb-4 '> <NavLink className="text-blue-500" to="/">SoleVague</NavLink>  &gt;  Returns&Exchange</p>
-<h1 className='text-left  text-2xl mb-4 text-black font-bold'> Returns And Exchanges </h1>
-        <div className="space-y-4">
-          <h2 className='font-normal text-black text-2xl'>Other Important Information</h2>
+    <p className='mb-4 font-normal '> <NavLink className="text-blue-500" to="/">SoleVague</NavLink>  &gt;  Returns&Exchange</p>
+<h1 className='text-left  text-2xl mb-4 text-black font-medium'> Returns And Exchanges </h1>
+        <div className="space-y-4 mb-[72px]">
+          <h2 className='font-normal text-black text-xl'>Returns & Exchanges FAQ </h2>
           {returnsAndExchangesFAQ.map((item, index) => ( <div key={index} >
 
             <details  className=" p-2 rounded-lg">
-              <summary className="cursor-pointer font-semibold">{item.question}</summary>
-              <p className="mt-2 text-gray-700">{item.answer}</p>
+              <summary className="cursor-pointer font-normal text-xl">{item.question}</summary>
+              <p className="mt-2 text-gray-700 font-normal">{item.answer}</p>
             </details>
             <div className='w-[100%] h-[0.5px] bg-[#dedbdb] mt-6'></div>
           </div>
           ))}
         </div>
-        <div className="space-y-4">
-        <h2 className='font-normal text-2xl text-black'>Returns & Exchanges FAQ</h2>
+        <div className="space-y-4 mb-[72px]">
+        <h2 className='font-normal text-2xl text-black'>Other Important Information</h2>
       {returnsAndExchangesFAQ1.map((item, index) => (
         <div key={index}>
         <details className='cursor-pointer' >
-          <summary>{item.key}</summary>
+          <summary className='font-normal text-xl'>{item.key}</summary>
           <p>
             {Array.isArray(item.value)
-              ? item.value.map((answer, idx) => <ul key={idx}> <li>{answer}</li> </ul>)
+              ? item.value.map((answer, idx) => <ul key={idx}> <li className='font-normal'>{answer}</li> </ul>)
               : item.value}
           </p>
         </details>
@@ -88,14 +88,14 @@ const Return = () => {
               </div>
       ))}
         </div>
-        <div className="space-y-4 ">
+        <div className="space-y-4 mb-[15px] ">
           <h2 className='font-normal text-2xl'>International Return & Exchange Instructions</h2>
           {returnsAndExchangesFAQ2.map((item, index) => (
             <div key={index}>
 
-            <details key={index} className=" p-2 rounded-lg">
-              <summary className="cursor-pointer font-semibold">{item.key}</summary>
-              <ul className="mt-2 text-gray-700"> {item.value.map((items,i)=><li key={i}>{items}</li>) }</ul>
+            <details key={index} className=" p-2 rounded-lg ">
+              <summary className="cursor-pointer font-normal text-xl">{item.key}</summary>
+              <ul className="mt-2 text-gray-700"> {item.value.map((items,i)=><li className='font-normal' key={i}>{items}</li>) }</ul>
             </details>
             
             </div>

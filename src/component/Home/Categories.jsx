@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { NavLink } from "react-router-dom";  // Import NavLink
-
+import sports from "../../../image/logo/sports.png"
 const Categories = () => {
   const boxes = [
     {
@@ -21,8 +21,7 @@ const Categories = () => {
     },
     {
       id: 3,
-      image:
-        "https://images.footlocker.com/content/dam/final/footlocker/site/homepage/2025/march/250317-fl-recfmrkxw-march-madness/250317-fl-recfmrKXW-march-madness-3up.jpg",
+      image:`${sports}`,
       text: "Discover More",
       link: "/gym", // Adjust to the correct route
     },
@@ -50,12 +49,12 @@ const Categories = () => {
         return (
           <NavLink
             key={box.id}
-            to={box.link}  // Use NavLink instead of <a> to navigate within the app
+            to={box.link}  
             className="relative group overflow-hidden block"
             ref={ref}
           >
-            {/* Image with faster sliding animation */}
-            <motion.img
+           
+           <motion.img
               src={box.image}
               alt={box.text}
               className="w-full h-full object-cover rounded-md transition-all duration-300 group-hover:blur"
@@ -65,12 +64,12 @@ const Categories = () => {
                 opacity: inView ? 1 : 0,
               }}
               transition={{
-                duration: 0.1, // Faster transition duration
-                ease: "linear", // Straightforward linear movement
-              }}
+                duration: 0.3, 
+                ease: "linear", 
+                           }}
             />
-            {/* Hover text overlay */}
-            <div className="absolute inset-0 flex items-start justify-center p-4">
+           
+           <div className="absolute inset-0 flex items-start justify-center p-4">
               <span className="text-white text-2xl font-bold transform -translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
                 {box.text}
               </span>

@@ -5,20 +5,76 @@
   .menu-list li::before {
     content: '';
     position: absolute;
-    bottom: -10px; /* Start 10px below the text */
+    bottom: -10px;
     left: 0;
-    width: 100%; /* Full width of the menu item */
-    height: 2px; /* Thickness of the line */
-    background-color: black; /* Color of the line */
-    opacity: 0; /* Initially invisible */
-    transition: bottom 0.3s ease, opacity 0.3s ease; /* Smooth transition for position and opacity */
+    width: 100%; 
+    height: 2px; 
+    background-color: black;     opacity: 0;
+    transition: bottom 0.3s ease, opacity 0.3s ease; 
   }
   
   .menu-list li:hover::before {
-    bottom: 0; /* Move to the bottom of the text */
-    opacity: 1; /* Fade in */
-  }
-  .underline {
-    bottom: 0; /* Move to the bottom of the text */
+    bottom: 0; 
     opacity: 1;
   }
+  .underline {
+    bottom: 0; 
+    opacity: 1;
+  }
+
+  .dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -300px;
+  background: white;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+  min-width: 800px;
+  border-radius: 4px;
+justify-content: space-evenly;
+
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: flex;
+  
+}
+
+.dropdown-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-section h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+.dropdown-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.dropdown-section ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.dropdown-section ul li a:hover {
+  color: #ff7a00;
+}
+

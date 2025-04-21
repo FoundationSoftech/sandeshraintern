@@ -89,42 +89,42 @@ const Shipping = () => {
   return (
     <div>
       <Header />
-      <p className='ml-14 m-3'> <NavLink className="text-blue-500" to="/">SoleVague</NavLink>  &gt;  Shipping</p>
+      <p className='ml-14 m-3 font-normal'> <NavLink className="text-blue-500" to="/">SoleVague</NavLink>  &gt;  Shipping</p>
       <div className=' w-[95%] p-4 mx-auto mb-9 '>
-        <h1 className='text-left font-bold text-2xl mb-4'>Order and Shipping</h1>
-        <div className="space-y-4">
-          <h2 className='font-normal text-2xl'>shipping FAQ</h2>
+        <h1 className='text-left font-medium text-2xl mb-4'>Order and Shipping</h1>
+        <div className="space-y-4 mb-[72px]">
+          <h2 className='font-normal text-2xl'>Shipping FAQ</h2>
           {shippingFAQ.map((item, index) => (
             <div key={index}>
 
             <details  className=" p-2 rounded-lg">
-              <summary className="cursor-pointer font-semibold">{item.question}</summary>
-              <p className="mt-2 text-gray-700">{item.answer}</p>
+              <summary className="cursor-pointer font-normal">{item.question}</summary>
+              <p className="mt-2 text-gray-700 font-normal">{item.answer}</p>
             </details>
             <div className='w-[100%] h-[0.5px] bg-[#dedbdb] mt-6'></div>
             </div>
           ))}
         </div>
-        <div className="space-y-4">
-          <h2 className='font-normal text-2xl'>Ordering And Shipping FAQ</h2>
+        <div className="space-y-4 mb-[72px]">
+          <h2 className='font-normal text-3xl'>Ordering And Shipping FAQ</h2>
           {orderingAndShippingFAQ.map((item, index) => (
           <div key={index}>
             <details  className=" p-2 rounded-lg">
-              <summary className="cursor-pointer font-semibold">{item.question}</summary>
-              <p className="mt-2 text-gray-700">{item.answer}</p>
+              <summary className="cursor-pointer font-normal">{item.question}</summary>
+              <p className="mt-2 text-gray-700 font-normal">{item.answer}</p>
             </details>
             <div className='w-[100%] h-[0.5px] bg-[#dedbdb] mt-6'></div>
             </div>
           ))}
         </div>
-        <div className="space-y-4">
-          <h2 className='font-normal text-2xl'>ordering Costs FAQ</h2>
+        <div className="space-y-4 ">
+          <h2 className='font-normal text-3xl'>Ordering Costs FAQ</h2>
           {orderingCostsFAQ.map((item, index) => (
             <div key={index}>
 
             <details  className=" p-2 rounded-lg">
-              <summary className="cursor-pointer font-semibold">{item.question}</summary>
-              <p className="mt-2 text-gray-700">{item.answer}</p>
+              <summary className="cursor-pointer font-normal">{item.question}</summary>
+              <p className="mt-2 text-gray-700 font-normal">{item.answer}</p>
             </details>
             <div className='w-[100%] h-[0.5px] bg-[#dedbdb] mt-6'></div>
 

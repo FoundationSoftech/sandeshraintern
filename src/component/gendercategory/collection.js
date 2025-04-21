@@ -1,466 +1,533 @@
-import { v4 as uuidv4 } from 'uuid';
-
 export const Mencollection = [
-    {
-      id: uuidv4(),
-      name: "Nike Air Max Dn8",
-      Price: "$190",
-      gender: "Men's Shoes",
-      Color: "4 Colors",
-      image: [
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0d641577-64b4-4963-92d5-2054a2f6de58/AIR+MAX+DN8+AMD.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/50568a09-f867-430c-bfef-ea0f3404c430/AIR+MAX+DN8.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/70a51c55-ae56-49eb-a074-c530971540ea/AIR+MAX+DN8.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0b6e478a-475b-4423-8aaa-74e7cddad5a7/AIR+MAX+DN8.png"
-      ],
-      features:
-        "Lightweight design, superior cushioning, and a modern aesthetic for everyday performance and style.",
-    },
-    {
-      id: uuidv4(),
-      name: "Nike Air Max Dn",
-      Price: "$170",
-      gender: "Men's Shoes",
-      Color: "4 Colors",
-      image: [
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c851dd49-41c2-46d1-a6fa-5261d4408be5/AIR+MAX+DN+AMD.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/694d39be-6539-4a36-8af1-27ee57aaf951/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c07f69-1d7a-4272-abe4-4adf4b9a9d2f/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f136cbe1-1636-477a-9335-6143bf319f41/AIR+MAX+DN+ES.png"
-      ],
-      features:
-        "Responsive cushioning, durable construction, and a sleek silhouette designed for both performance and comfort.",
-    },
-    {
-      id: uuidv4(),
-      name: "Nike Air Max Dn",
-      Price: "$170",
-      gender: "Men's Shoes",
-      Color: "4 Colors",
-      image: [
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c851dd49-41c2-46d1-a6fa-5261d4408be5/AIR+MAX+DN+AMD.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/694d39be-6539-4a36-8af1-27ee57aaf951/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c07f69-1d7a-4272-abe4-4adf4b9a9d2f/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f136cbe1-1636-477a-9335-6143bf319f41/AIR+MAX+DN+ES.png"
-      ],
-      features:
-        "Engineered for durability and style, featuring enhanced cushioning and a breathable upper for all-day comfort.",
-    },
-    {
-      id: uuidv4(),
-      name: "Nike Air Max Dn",
-      Price: "$170",
-      gender: "Men's Shoes",
-      Color: "4 Colors",
-      image: [
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c851dd49-41c2-46d1-a6fa-5261d4408be5/AIR+MAX+DN+AMD.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/694d39be-6539-4a36-8af1-27ee57aaf951/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c07f69-1d7a-4272-abe4-4adf4b9a9d2f/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f136cbe1-1636-477a-9335-6143bf319f41/AIR+MAX+DN+ES.png"
-      ],
-      features:
-        "Designed with a modern look, these shoes combine comfort with style for both athletic and casual wear.",
-    },
-    {
-      id: uuidv4(),
-      name: "Nike Air Max Dn",
-      Price: "$170",
-      gender: "Men's Shoes",
-      Color: "4 Colors",
-      image: [
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c851dd49-41c2-46d1-a6fa-5261d4408be5/AIR+MAX+DN+AMD.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/694d39be-6539-4a36-8af1-27ee57aaf951/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c07f69-1d7a-4272-abe4-4adf4b9a9d2f/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f136cbe1-1636-477a-9335-6143bf319f41/AIR+MAX+DN+ES.png"
-      ],
-      features:
-        "Featuring innovative design elements and quality materials that deliver both performance and style.",
-    },
-    {
-      id: uuidv4(),
-      name: "Nike Air Max Dn",
-      Price: "$170",
-      gender: "Men's Shoes",
-      Color: "4 Colors",
-      image: [
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c851dd49-41c2-46d1-a6fa-5261d4408be5/AIR+MAX+DN+AMD.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/694d39be-6539-4a36-8af1-27ee57aaf951/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c07f69-1d7a-4272-abe4-4adf4b9a9d2f/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f136cbe1-1636-477a-9335-6143bf319f41/AIR+MAX+DN+ES.png"
-      ],
-      features:
-        "Combining a sleek design with high-performance materials, ensuring both durability and comfort.",
-    },
-    {
-      id: uuidv4(),
-      name: "Nike Air Max Dn",
-      Price: "$170",
-      gender: "Men's Shoes",
-      Color: "4 Colors",
-      image: [
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c851dd49-41c2-46d1-a6fa-5261d4408be5/AIR+MAX+DN+AMD.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/694d39be-6539-4a36-8af1-27ee57aaf951/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c07f69-1d7a-4272-abe4-4adf4b9a9d2f/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f136cbe1-1636-477a-9335-6143bf319f41/AIR+MAX+DN+ES.png"
-      ],
-      features:
-        "Built for everyday wear with a focus on comfort, functionality, and a cutting-edge look.",
-    },
-    {
-      id: uuidv4(),
-      name: "Nike Air Max Dn",
-      Price: "$170",
-      gender: "Men's Shoes",
-      Color: "4 Colors",
-      image: [
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c851dd49-41c2-46d1-a6fa-5261d4408be5/AIR+MAX+DN+AMD.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/694d39be-6539-4a36-8af1-27ee57aaf951/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c07f69-1d7a-4272-abe4-4adf4b9a9d2f/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f136cbe1-1636-477a-9335-6143bf319f41/AIR+MAX+DN+ES.png"
-      ],
-      features:
-        "A versatile shoe offering balanced support and style, perfect for both workouts and casual outings.",
-    },
-    {
-      id: uuidv4(),
-      name: "Nike Air Max Dn",
-      Price: "$170",
-      gender: "Men's Shoes",
-      Color: "4 Colors",
-      image: [
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c851dd49-41c2-46d1-a6fa-5261d4408be5/AIR+MAX+DN+AMD.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/694d39be-6539-4a36-8af1-27ee57aaf951/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c07f69-1d7a-4272-abe4-4adf4b9a9d2f/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f136cbe1-1636-477a-9335-6143bf319f41/AIR+MAX+DN+ES.png"
-      ],
-      features:
-        "Engineered for performance, these shoes provide excellent shock absorption and a stylish design.",
-    },
-    {
-      id: uuidv4(),
-      name: "Nike Air Max Dn",
-      Price: "$170",
-      gender: "Men's Shoes",
-      Color: "4 Colors",
-      image: [
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c851dd49-41c2-46d1-a6fa-5261d4408be5/AIR+MAX+DN+AMD.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/694d39be-6539-4a36-8af1-27ee57aaf951/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c07f69-1d7a-4272-abe4-4adf4b9a9d2f/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f136cbe1-1636-477a-9335-6143bf319f41/AIR+MAX+DN+ES.png"
-      ],
-      features:
-        "A perfect blend of innovation and style, offering enhanced grip and comfortable wear for daily activities.",
-    },
-    {
-      id: uuidv4(),
-      name: "Nike Air Max Dn",
-      Price: "$170",
-      gender: "Men's Shoes",
-      Color: "4 Colors",
-      image: [
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c851dd49-41c2-46d1-a6fa-5261d4408be5/AIR+MAX+DN+AMD.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/694d39be-6539-4a36-8af1-27ee57aaf951/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c07f69-1d7a-4272-abe4-4adf4b9a9d2f/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f136cbe1-1636-477a-9335-6143bf319f41/AIR+MAX+DN+ES.png"
-      ],
-      features:
-        "Offers cutting-edge comfort with a lightweight build and effective shock absorption for high-impact activities.",
-    },
-    {
-      id: uuidv4(),
-      name: "Nike Air Max Dn",
-      Price: "$170",
-      gender: "Men's Shoes",
-      Color: "4 Colors",
-      image: [
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c851dd49-41c2-46d1-a6fa-5261d4408be5/AIR+MAX+DN+AMD.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/694d39be-6539-4a36-8af1-27ee57aaf951/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c07f69-1d7a-4272-abe4-4adf4b9a9d2f/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f136cbe1-1636-477a-9335-6143bf319f41/AIR+MAX+DN+ES.png"
-      ],
-      features:
-        "Crafted with precision and style in mind, these shoes deliver excellent performance and a modern look.",
-    },
-    {
-      id: uuidv4(),
-      name: "Nike Air Max Dn",
-      Price: "$170",
-      gender: "Men's Shoes",
-      Color: "4 Colors",
-      image: [
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c851dd49-41c2-46d1-a6fa-5261d4408be5/AIR+MAX+DN+AMD.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/694d39be-6539-4a36-8af1-27ee57aaf951/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c07f69-1d7a-4272-abe4-4adf4b9a9d2f/AIR+MAX+DN.png",
-        "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f136cbe1-1636-477a-9335-6143bf319f41/AIR+MAX+DN+ES.png"
-      ],
-      features:
-        "Designed for everyday performance, featuring a breathable upper and resilient cushioning technology."
-    }
-  ];
-  
-
-export const WomenCollection = [
-    {
-        id:uuidv4(),
-        name:"Nike Air Max Dn8",
-        Price:"$190",
-        gender:"Women's Shoes",
-        Color :"4 Colors",
-        image:[
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7648f261-f1e5-4b66-b0e2-2d29890901e1/W+AIR+MAX+DN8.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d0382875-94af-4a2f-a788-6d2ce0657de2/W+AIR+MAX+DN8.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ab8e8332-0a72-44b7-9049-030819e196ab/W+AIR+MAX+DN8.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da65bdd4-2934-47d8-8df1-1c1af2c2835f/W+AIR+MAX+DN8.png"
-        ],
-        features: "Built with responsive cushioning and a sleek design for ultimate comfort and style."
-    },
-    {
-        id:uuidv4(),
-        name:"Nike Air Max Dn Premium",
-        Price:"$170",
-        gender:"Women's Shoes",
-        Color :"4 Colors",
-        image:[
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d8e7cc93-7556-49e2-834d-640d45b8d9ff/W+AIR+MAX+DN+PRM.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6d242ed2-c412-404a-bb27-9f2dd7bda16e/W+AIR+MAX+DN+PRM.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b768ac95-eca6-4948-83d8-d34efce41ba5/W+AIR+MAX+DN.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/942e739a-e836-426d-870e-d8340042225c/W+AIR+MAX+DN.png"
-        ],
-        features: "Premium materials for a durable, stylish fit, perfect for everyday wear and performance."
-    },
-    {
-        id:uuidv4(),
-        name:"Nike Air Max 270",
-        Price:"$170",
-        gender:"Women's Shoes",
-        Color :"4 Colors",
-        image:[
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e57fffe6-bd3c-4230-8f2d-a5a9336395c3/W+AIR+MAX+270.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/368e9faf-00dd-4fda-96be-73b3e0f9dcfd/W+AIR+MAX+270.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2fb74645-8a41-4316-a1fa-2f2433611880/W+AIR+MAX+270.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1518d6fb-ded7-45af-a879-6e1c130f1a95/W+AIR+MAX+270.png"
-        ],
-        features: "A bold look with soft, responsive cushioning to keep you comfortable all day."
-    },
-    {
-        id:uuidv4(),
-        name:"Nike Air Max Dn8",
-        Price:"$190",
-        gender:"Women's Shoes",
-        Color :"4 Colors",
-        image:[
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7648f261-f1e5-4b66-b0e2-2d29890901e1/W+AIR+MAX+DN8.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d0382875-94af-4a2f-a788-6d2ce0657de2/W+AIR+MAX+DN8.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ab8e8332-0a72-44b7-9049-030819e196ab/W+AIR+MAX+DN8.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da65bdd4-2934-47d8-8df1-1c1af2c2835f/W+AIR+MAX+DN8.png"
-        ],
-        features: "Designed for superior breathability and a responsive sole for maximum comfort during your workout."
-    },
-    {
-        id:uuidv4(),
-        name:"Nike Air Max Dn Premium",
-        Price:"$170",
-        gender:"Women's Shoes",
-        Color :"4 Colors",
-        image:[
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d8e7cc93-7556-49e2-834d-640d45b8d9ff/W+AIR+MAX+DN+PRM.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6d242ed2-c412-404a-bb27-9f2dd7bda16e/W+AIR+MAX+DN+PRM.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b768ac95-eca6-4948-83d8-d34efce41ba5/W+AIR+MAX+DN.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/942e739a-e836-426d-870e-d8340042225c/W+AIR+MAX+DN.png"
-        ],
-        features: "Combining style and performance with cushioned comfort and a durable build."
-    },
-    {
-        id:uuidv4(),
-        name:"Nike Air Max 270",
-        Price:"$170",
-        gender:"Women's Shoes",
-        Color :"4 Colors",
-        image:[
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e57fffe6-bd3c-4230-8f2d-a5a9336395c3/W+AIR+MAX+270.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/368e9faf-00dd-4fda-96be-73b3e0f9dcfd/W+AIR+MAX+270.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2fb74645-8a41-4316-a1fa-2f2433611880/W+AIR+MAX+270.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1518d6fb-ded7-45af-a879-6e1c130f1a95/W+AIR+MAX+270.png"
-        ],
-        features: "Sleek design with a cushioned sole for all-day comfort and athletic style."
-    },
-    {
-        id:uuidv4(),
-        name:"Nike Air Max Dn8",
-        Price:"$190",
-        gender:"Women's Shoes",
-        Color :"4 Colors",
-        image:[
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7648f261-f1e5-4b66-b0e2-2d29890901e1/W+AIR+MAX+DN8.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d0382875-94af-4a2f-a788-6d2ce0657de2/W+AIR+MAX+DN8.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ab8e8332-0a72-44b7-9049-030819e196ab/W+AIR+MAX+DN8.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da65bdd4-2934-47d8-8df1-1c1af2c2835f/W+AIR+MAX+DN8.png"
-        ],
-        features: "A perfect blend of performance and style with a lightweight, breathable build."
-    },
-    {
-        id:uuidv4(),
-        name:"Nike Air Max Dn Premium",
-        Price:"$170",
-        gender:"Women's Shoes",
-        Color :"4 Colors",
-        image:[
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d8e7cc93-7556-49e2-834d-640d45b8d9ff/W+AIR+MAX+DN+PRM.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6d242ed2-c412-404a-bb27-9f2dd7bda16e/W+AIR+MAX+DN+PRM.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b768ac95-eca6-4948-83d8-d34efce41ba5/W+AIR+MAX+DN.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/942e739a-e836-426d-870e-d8340042225c/W+AIR+MAX+DN.png"
-        ],
-        features: "Crafted for comfort and longevity, these shoes offer excellent support with every step."
-    },
-    {
-        id:uuidv4(),
-        name:"Nike Air Max 270",
-        Price:"$170",
-        gender:"Women's Shoes",
-        Color :"4 Colors",
-        image:[
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e57fffe6-bd3c-4230-8f2d-a5a9336395c3/W+AIR+MAX+270.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/368e9faf-00dd-4fda-96be-73b3e0f9dcfd/W+AIR+MAX+270.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2fb74645-8a41-4316-a1fa-2f2433611880/W+AIR+MAX+270.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1518d6fb-ded7-45af-a879-6e1c130f1a95/W+AIR+MAX+270.png"
-        ],
-        features: "Designed to provide superior cushioning and unmatched style for all-day wear."
-    }
-]
-
-export const KidCollection = [
-    {
-        id: uuidv4(),
-        name: "Nike Vomero 5",
-        Price: "$77",
-        gender: "Kid's Shoes",
-        Color: "3 Colors",
-        image: [
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/98861d12-9ba5-4a93-aada-531730d25830/VOMERO+5+%28GS%29.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/59edb964-99bb-45a3-98fc-4f05404ec709/VOMERO+5+%28GS%29.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d75d031f-4742-4a4c-865d-05f2565e0dc3/VOMERO+5+%28GS%29.png"
-        ],
-        features: "Engineered with a cushioned sole for comfort, a breathable mesh upper for ventilation, and durable rubber outsole for traction."
-    },
-    {
-        id: uuidv4(),
-        name: "Nike Air VaporMax 2021 FK",
-        Price: "$123",
-        gender: "Kid's Shoes",
-        Color: "1 Color",
-        image: [
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1fb6d254-82ce-4168-8674-7813cb86a1f9/VOMERO+5+%28GS%29.png"
-        ],
-        features: "Features Flyknit technology for a snug, sock-like fit and Air Max cushioning for responsive comfort with sustainable materials."
-    },
-    {
-        id: uuidv4(),
-        name: "Giannis Freak 6",
-        Price: "$78.97",
-        gender: "Kid's Shoes",
-        Color: "3 Colors",
-        image: [
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/beebaf0b-0b85-4136-9884-3b8212f1d888/GIANNIS+FREAK+6+%28GS%29.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/75a80ba9-85ce-4d7c-a08e-f07a7f412439/GIANNIS+FREAK+6+%28GS%29.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9ab07c1f-44c2-4a6c-aa6b-44f391f9bed0/GIANNIS+FREAK+6+%28GS%29.png"
-        ],
-        features: "Designed for agility and durability, featuring a durable rubber traction for grip and breathable mesh for ventilation."
-    },
-    {
-        id: uuidv4(),
-        name: "Nike Vomero 5",
-        Price: "$77",
-        gender: "Kid's Shoes",
-        Color: "3 Colors",
-        image: [
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/98861d12-9ba5-4a93-aada-531730d25830/VOMERO+5+%28GS%29.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/59edb964-99bb-45a3-98fc-4f05404ec709/VOMERO+5+%28GS%29.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d75d031f-4742-4a4c-865d-05f2565e0dc3/VOMERO+5+%28GS%29.png"
-        ],
-        features: "Offers superior cushioning and support with a breathable upper, perfect for active kids who need both comfort and durability."
-    },
-    {
-        id: uuidv4(),
-        name: "Nike Air VaporMax 2021 FK",
-        Price: "$123",
-        gender: "Kid's Shoes",
-        Color: "1 Color",
-        image: [
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1fb6d254-82ce-4168-8674-7813cb86a1f9/VOMERO+5+%28GS%29.png"
-        ],
-        features: "Flyknit upper for a snug, adaptive fit, combined with VaporMax cushioning for a lightweight, responsive feel."
-    },
-    {
-        id: uuidv4(),
-        name: "Giannis Freak 6",
-        Price: "$78.97",
-        gender: "Kid's Shoes",
-        Color: "3 Colors",
-        image: [
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/beebaf0b-0b85-4136-9884-3b8212f1d888/GIANNIS+FREAK+6+%28GS%29.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/75a80ba9-85ce-4d7c-a08e-f07a7f412439/GIANNIS+FREAK+6+%28GS%29.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9ab07c1f-44c2-4a6c-aa6b-44f391f9bed0/GIANNIS+FREAK+6+%28GS%29.png"
-        ],
-        features: "Tailored for performance with responsive cushioning and a durable design that’s perfect for active play and sports."
-    }
-    // Add more items as needed
+  {
+    id: "men-001",
+    name: "Nike Air Max Dn8",
+    Price: 2000,
+    gender: "Men's Shoes",
+    Color: "1 Color",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0d641577-64b4-4963-92d5-2054a2f6de58/AIR+MAX+DN8+AMD.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/50568a09-f867-430c-bfef-ea0f3404c430/AIR+MAX+DN8.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/70a51c55-ae56-49eb-a074-c530971540ea/AIR+MAX+DN8.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0b6e478a-475b-4423-8aaa-74e7cddad5a7/AIR+MAX+DN8.png"
+    ],
+    features:
+      "Lightweight design, superior cushioning, and a modern aesthetic for everyday performance and style.",
+  },
+  {
+    id: "men-002",
+    name: "Nike P-6000",
+    Price: 1500,
+    gender: "Men's Shoes",
+    Color: "2 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c07f69-1d7a-4272-abe4-4adf4b9a9d2f/AIR+MAX+DN.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/92b5a1b2-9114-406b-9d10-9152b44a77bd/AIR+MAX+DN.png",
+      
+    ],
+    features:
+      "Responsive cushioning, durable construction, and a sleek silhouette designed for both performance and comfort.",
+  },
+  {
+    id: "men-003",
+    name: "Nike Vomero 18",
+    Price: 1700,
+    gender: "Men's Shoes",
+    Color: "3 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d130fcfa-7169-4172-8955-bf39cc544527/NIKE+VOMERO+18.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/47c3d001-a95c-4805-9c5c-c16be4776b1b/NIKE+VOMERO+18.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/65a58cd6-964d-455e-ab87-fe5c9eefae91/NIKE+VOMERO+18.png",
+    ],
+    features:
+      "Engineered for durability and style, featuring enhanced cushioning and a breathable upper for all-day comfort.",
+  },
+  {
+    id: "men-004",
+    name: "Nike Downshifter 13",
+    Price: 1700,
+    gender: "Men's Shoes",
+    Color: "4 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b9fd3dbc-c956-4236-a9c5-b34f9c170dd0/NIKE+DOWNSHIFTER+13.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3d202cb8-51e3-43b9-807d-21228a99412c/NIKE+DOWNSHIFTER+13.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c0ea05c0-fd6a-4272-a6e6-ecb4a4e8c15e/NIKE+DOWNSHIFTER+13.png",
+    ],
+    features:
+      "Premium materials, exceptional comfort, and a sleek design that elevates any outfit.",
+  },
+  {
+    id: "men-005",
+    name: "Book 1 Flagstaff",
+    Price: 2000,
+    gender: "Men's Workout Shoe",
+    Color: "3 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fa6b662a-6a24-427f-b54a-c99374f4546d/BOOK+1+BLUE.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/592a7428-d554-4898-a0dd-91696bed26e7/BOOK+1.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/701635f2-75d5-474c-bcb4-1a133d27ade2/BOOK+1+TEXT.png",
+    ],
+    features:
+      "Designed for agility and speed, with superior grip, lightweight cushioning, and a supportive fit.",
+  },
+  {
+    id: "men-006",
+    name: "GV Special",
+    Price: 1650,
+    gender: "Men's Shoes",
+    Color: "3 Colors",
+    image: [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/398374/01/sv01/fnd/PNA/fmt/png/GV-Special-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/398374/03/sv01/fnd/PNA/fmt/png/GV-Special-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/398374/04/sv01/fnd/PNA/fmt/png/GV-Special-Sneakers",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "men-007",
+    name: "Speedcat OG",
+    Price: 1950,
+    gender: "Men's Basketball Shoes",
+    Color: "1 Color",
+    image: [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/401700/04/sv01/fnd/PNA/fmt/png/Speedcat-OG-Toddlers'-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/401700/05/sv01/fnd/PNA/fmt/png/Speedcat-OG-Toddlers'-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/401700/07/sv01/fnd/PNA/fmt/png/Speedcat-OG-Toddlers'-Sneakers",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "men-008",
+    name: "Mostro Perforated",
+    Price: 1950,
+    gender: "Men's Sneakers",
+    Color: "2 Colors",
+    image: [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/397331/01/sv01/fnd/PNA/fmt/png/Mostro-Perforated-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/397331/02/sv01/fnd/PNA/fmt/png/Mostro-Perforated-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/397331/01/sv02/fnd/PNA/fmt/png/Mostro-Perforated-Sneakers",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "men-009",
+    name: "Speedcat mid",
+    Price: 1050,
+    gender: "Men's Running Sneaker",
+    Color: "1 Color",
+    image: [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/400384/01/sv01/fnd/PNA/fmt/png/Speedcat-Mid-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/400384/01/mod01/fnd/PNA/fmt/png/Speedcat-Mid-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/400384/01/fnd/PNA/fmt/png/Speedcat-Mid-Sneakers",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "men-010",
+    name: "Supernova Rise 2 Running Shoes",
+    Price: 1140,
+    gender: "Men's Running Sneakers",
+    Color: "3 Colors",
+    image: [
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/063fb73aa7474c3a8ea43cc5c5015313_9366/F50_Elite_Firm_Ground_Soccer_Cleats_Kids_Blue_IE1306_22_model.jpg",
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/ad6a0e1ec70f418c95d16c435b050ed6_9366/F50_Elite_Firm_Ground_Soccer_Cleats_Kids_White_IE1305_01_00_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/6acbff944037450591d67c90753f1e46_9366/F50_Elite_Firm_Ground_Soccer_Cleats_Kids_Blue_IE1306_01_00_standard_hover.jpg",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "men-011",
+    name: "Air Jordan 1 Low EasyOn",
+    Price: 1600,
+    gender: "Men's Shoes",
+    Color: "2 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/891af891-083d-4909-b873-32225afce71e/AIR+JORDAN+1+LOW+EASYON.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9c3a7c72-9740-4b33-8d4b-194c6492faf1/AIR+JORDAN+1+LOW+EASYON.png",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "men-012",
+    name: "Speedcat OG",
+    Price: 1950,
+    gender: "Men's Basketball Shoes",
+    Color: "1 Color",
+    image: [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/401700/04/sv01/fnd/PNA/fmt/png/Speedcat-OG-Toddlers'-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/401700/05/sv01/fnd/PNA/fmt/png/Speedcat-OG-Toddlers'-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/401700/07/sv01/fnd/PNA/fmt/png/Speedcat-OG-Toddlers'-Sneakers",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
 ];
 
+export const WomenCollection = [
+  {
+    id: "women-001",
+    name: "Nike Shox R4",
+    Price: 1900,
+    gender: "Women's Shoes",
+    Color: "4 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d6f3d0f1-af32-49cb-b3c1-561c3a95aace/NIKE+SHOX+R4.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b18c0993-e0a8-4218-9afe-1e1cd077245b/NIKE+SHOX+R4.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/91a85f86-cddd-4d41-a87f-b0e3d8ecdb88/NIKE+SHOX+R4.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4eb0448f-b9b3-4f20-9b8f-d180fb641ddb/NIKE+SHOX+R4.png",
+    ],
+    features:
+      "Soft cushioning, breathable fabric, and stylish design tailored for women's comfort and versatility.",
+  },
+  {
+    id: "women-002",
+    name: "Nike React Phantom Run Flyknit 2",
+    Price: 1700,
+    gender: "Women's Shoes",
+    Color: "3 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-c43a9734-8bc6-4390-b321-d123b733714d/NIKE+REACT+PHANTOM+RUN+FK+2.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ca3ffeb0-2333-4603-b3a8-cbfe36670201/NIKE+REACT+PHANTOM+RUN+FK+2.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/863451c3-16a4-4b8c-bdce-5d7bb6cdbb1e/NIKE+REACT+PHANTOM+RUN+FK+2.png",
+    ],
+    features:
+      "Designed for ultimate comfort with a stylish and breathable design for all-day wear.",
+  },
+  {
+    id: "women-003",
+    name: "Nike Air Max 270",
+    Price: 1700,
+    gender: "Women's Shoes",
+    Color: "3 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/271c303e-6efd-4444-bd74-a881adfe5d6f/W+AIR+MAX+270.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ouweg5dax808k3vqipcr/W+AIR+MAX+270.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/xafjtunb69j40gagoyyc/W+AIR+MAX+270.png",
+    ],
+    features:
+      "Lightweight and breathable design, featuring cushioned support for all-day comfort and durability.",
+  },
+  {
+    id: "women-004",
+    name: "Speedcat OG",
+    Price: 1250,
+    gender: "Women's Sneakers",
+    Color: "3 Colors",
+    image: [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/400986/02/sv01/fnd/PNA/fmt/png/Speedcat-OG-Women's-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/400986/01/sv01/fnd/PNA/fmt/png/Speedcat-OG-Women's-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/400986/04/sv01/fnd/PNA/fmt/png/Speedcat-OG-Women's-Sneakers",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "women-005",
+    name: "Inhale",
+    Price: 1850,
+    gender: "Women's Sneakers",
+    Color: "1 Color",
+    image: [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/403281/09/sv01/fnd/PNA/fmt/png/Inhale-Women's-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/403281/09/mod01/fnd/PNA/fmt/png/Inhale-Women's-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/403281/09/fnd/PNA/fmt/png/Inhale-Women's-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/403281/09/sv02/fnd/PNA/fmt/png/Inhale-Women's-Sneakers",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "women-006",
+    name: "GAZELLE BOLD SHOES",
+    Price: 1750,
+    gender: "Women's Running Sneakers",
+    Color: "3 Colors",
+    image: [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c6722c1f95be4187b9727ecd6d957cf9_9366/Adizero_EVO_SL_Shoes_White_JR5841_01_00_standard.jpg",
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/7459e24ecc9544cf8e9dbc19c9e9fcf7_9366/Adizero_EVO_SL_Shoes_Black_JP7147_01_00_standard.jpg",
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/ed29d1744afa4d8ea83077de3f7bb287_9366/Adizero_EVO_SL_Shoes_White_JH6208_01_00_standard.jpg",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "women-007",
+    name: "Gazelle Indoor Shoes",
+    Price: 1200,
+    gender: "Women's Sneakers",
+    Color: "1 Color",
+    image: [
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/ab58765e5ed740a79783b9fbb7a3c37e_9366/Gazelle_Indoor_Shoes_Pink_JI2718_01_00_standard.jpg",
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/c792a81f8c0347e68852bf4351bb26e7_9366/Gazelle_Indoor_Shoes_Pink_JI2718_02_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/b9d32a10563a4bafa7d966c77e0d3ed4_9366/Gazelle_Indoor_Shoes_Pink_JI2718_03_standard.jpg",
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/4eaa72c7a20640ed9fff5ba806451691_9366/Gazelle_Indoor_Shoes_Pink_JI2718_04_standard.jpg",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "women-008",
+    name: "Air Jordan Mule",
+    Price: 1300,
+    gender: "Women's Golf Shoes",
+    Color: "4 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e207f0ee-138d-4d9b-9e01-c712d4c85f0b/AIR+JORDAN+MULE.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c1cf2f88-55de-4350-8699-ede463aa67a4/AIR+JORDAN+MULE.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b66577fa-955e-4c53-a82b-3b3f8b7892dc/AIR+JORDAN+MULE.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bfcbed6f-9095-4276-93fa-30836d987033/AIR+JORDAN+MULE.png",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "women-009",
+    name: "Air Jordan XXXIX",
+    Price: 1650,
+    gender: "Women's Basketball Shoes",
+    Color: "3 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c42ba4ee-6345-484f-b5a9-077e63f74a74/AIR+JORDAN+XXXIX.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c5bc9d2d-0000-43da-a834-597158399d28/AIR+JORDAN+XXXIX.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b5bac0f2-7d08-479b-a78e-ee58bb14ecfe/AIR+JORDAN+XXXIX.png",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "women-010",
+    name: "Jordan ADG 5",
+    Price: 1590,
+    gender: "Women's Golf Shoes",
+    Color: "3 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f706217d-8706-4f1b-b2ce-f81774657244/JORDAN+ADG+5.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/40f16037-d8a4-4433-ba54-91ce0722f33b/JORDAN+ADG+5.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/951ae17b-31f4-4897-8184-919794720e56/JORDAN+ADG+5.png",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "women-011",
+    name: "Jordan Flight Court",
+    Price: 2000,
+    gender: "Women's Shoes",
+    Color: "4 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d6326385-806d-4765-b92e-d70d0d93b223/WMNS+JORDAN+FLIGHT+COURT.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d0fb75f0-3983-4618-9c88-673f3ebc9d8f/WMNS+JORDAN+FLIGHT+COURT.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/374a5aec-1afc-49c0-a51e-e88ba0f563e7/WMNS+JORDAN+FLIGHT+COURT.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/30b722bf-65da-43b3-a8bb-016c6910a374/WMNS+JORDAN+FLIGHT+COURT.png",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "women-012",
+    name: "Air Jordan Mule",
+    Price:1300,
+    gender: "Women's Golf Shoes",
+    Color: "4 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e207f0ee-138d-4d9b-9e01-c712d4c85f0b/AIR+JORDAN+MULE.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c1cf2f88-55de-4350-8699-ede463aa67a4/AIR+JORDAN+MULE.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b66577fa-955e-4c53-a82b-3b3f8b7892dc/AIR+JORDAN+MULE.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bfcbed6f-9095-4276-93fa-30836d987033/AIR+JORDAN+MULE.png",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+];
+
+export const KidCollection = [
+  {
+    id: "kid-001",
+    name: "Nike Air Max 270",
+    Price: 1230,
+    gender: "Kids' Shoes",
+    Color: "1 Color",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1cae766a-58ea-4457-a785-38aa546a8ac5/W+NIKE+VOMERO+18+SE.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bc7bd3ea-73b8-4254-8fd0-189b29071bfd/W+NIKE+VOMERO+18.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b40a9962-13f4-43a2-b9df-e5c528eaceec/W+NIKE+VOMERO+18.png",
+    ],
+    features:
+      "Innovative VaporMax air cushioning for a responsive, lightweight feel with a flexible Flyknit upper.",
+  },
+  {
+    id: "kid-002",
+    name: "Samba Messi Indoor Soccer Shoes Kids",
+    Price: 1750,
+    gender: "Kids' Sports Shoes",
+    Color: "2 Colors",
+    image: [
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/f935e32669d54634ac95fdbfed325aa7_9366/Samba_Messi_Indoor_Soccer_Shoes_Kids_Black_JR6349_01_00_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/337d3699f47940e1817b4e2270a2d77a_9366/Samba_Messi_Indoor_Soccer_Shoes_Kids_Pink_JR0424_01_00_standard_hover.jpg",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "kid-003",
+    name: "Predator League Fold-Over Kids",
+    Price: 1200,
+    gender: "Kids' Sports Shoes",
+    Color: "2 Colors",
+    image: [
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/f21aa5628ad04d8abc92ea9ecd2f46fc_9366/Predator_League_Fold-Over_Tongue_Firm_Ground_Soccer_Cleats_Kids_Red_ID3830_01_00_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/1f95321d141042e7ba8bc456c9ed9777_9366/Predator_League_Fold-Over_Tongue_Firm_Ground_Soccer_Cleats_Kids_White_ID3831_01_00_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f90d3feaf3c4d4280270c87cb280100_9366/Predator_League_Firm-Multi-Ground_Soccer_Cleats_Kids_Green_ID3748_01_00_standard_hover.jpg",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "kid-004",
+    name: "Predator Multi-Ground Soccer Cleats Kids",
+    Price: 2000,
+    gender: "Kids' Sports Shoes",
+    Color: "3 Colors",
+    image: [
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/44660dca0d404fdd82b6c249b6cbaa3b_9366/Predator_League_Firm-Multi-Ground_Soccer_Cleats_Kids_Black_ID3749_01_00_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/5e69ef77cbc6473ebef6339e89a1dac7_9366/Predator_League_Firm-Multi-Ground_Soccer_Cleats_Kids_Red_ID3750_01_00_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f90d3feaf3c4d4280270c87cb280100_9366/Predator_League_Firm-Multi-Ground_Soccer_Cleats_Kids_Green_ID3748_01_00_standard_hover.jpg",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "kid-005",
+    name: "Luka 3 Speedway",
+    Price: 2000,
+    gender: "Kids' Shoes",
+    Color: "3 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5ea65ab2-324d-4d0e-9673-9b5bcb8c16f8/JORDAN+SPIZIKE+LOW+BG.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7f513b7b-dba7-476a-b06e-8e2c793de71c/JORDAN+SPIZIKE+LOW+%28GS%29.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0d19e41a-5647-43b1-aacb-38ad611ee58a/JORDAN+SPIZIKE+LOW+%28GS%29.png",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "kid-006",
+    name: "Giannis Freak 6",
+    Price: 790,
+    gender: "Kids' Shoes",
+    Color: "3 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/beebaf0b-0b85-4136-9884-3b8212f1d888/GIANNIS+FREAK+6+%28GS%29.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/75a80ba9-85ce-4d7c-a08e-f07a7f412439/GIANNIS+FREAK+6+%28GS%29.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9ab07c1f-44c2-4a6c-aa6b-44f391f9bed0/GIANNIS+FREAK+6+%28GS%29.png",
+    ],
+    features: "Tailored for performance with responsive cushioning and a durable design that’s perfect for active play and sports.",
+  },
+];
 
 export const Training = [
-    {
-        id: uuidv4(),
-        name: "Nike Free Metcon 6",
-        Price: "$120",
-        gender: "Women's Workout Shoes",
-        Color: "3 Colors",
-        image: [
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f1683286-037e-4fb9-9e15-2b3991247599/W+NIKE+FREE+METCON+6.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5db5dbda-f8d5-4eea-86db-520f67d32cf1/W+NIKE+FREE+METCON+6.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ed1b37c9-5480-46e2-87e4-ebc3ff1bb155/W+NIKE+FREE+METCON+6.png"
-        ],
-        features: "Designed for high-intensity workouts, offering a stable and supportive fit."
-    },
-    {
-        id: uuidv4(),
-        name: "Nike Free Metcon 6",
-        Price: "$120",
-        gender: "Men's Workout Shoes",
-        Color: "4 Colors",
-        image: [
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d88bf5ef-bbf6-4824-a99b-f402c2520785/NIKE+FREE+METCON+6.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e5cc9ab3-5c10-43fa-b007-5bb4fcfc07d9/NIKE+FREE+METCON+6.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b066942f-58f2-4c96-9745-477481a5c166/NIKE+FREE+METCON+6.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0a1c3f5e-aa42-418b-acb5-eb604bdef8e8/NIKE+FREE+METCON+6+TB.png"
-        ],
-        features: "Perfect for weight training, featuring excellent grip and flexibility."
-    },
-    {
-        id: uuidv4(),
-        name: "Nike Free Metcon 9",
-        Price: "$160",
-        gender: "Men's Workout Shoes",
-        Color: "4 Colors",
-        image: [
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d802a4dc-fee5-4e55-b4c1-e9e50e66c42f/NIKE+METCON+9.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b7f3e347-9ac5-485c-ac2c-4bbf5b38359a/NIKE+METCON+9.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ef1dafdd-37cc-4a75-8778-e55cea1185e8/NIKE+METCON+9.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5f53a9a0-10aa-4da4-a448-ef36dc04cf71/NIKE+METCON+9.png"
-        ],
-        features: "A versatile workout shoe offering ultimate comfort and flexibility for dynamic exercises."
-    },
-    {
-        id: uuidv4(),
-        name: "Nike Air Max Dn",
-        Price: "$170",
-        gender: "Men's Shoes",
-        Color: "4 Colors",
-        image: [
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c851dd49-41c2-46d1-a6fa-5261d4408be5/AIR+MAX+DN+AMD.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/694d39be-6539-4a36-8af1-27ee57aaf951/AIR+MAX+DN.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35c07f69-1d7a-4272-abe4-4adf4b9a9d2f/AIR+MAX+DN.png",
-            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f136cbe1-1636-477a-9335-6143bf319f41/AIR+MAX+DN+ES.png"
-        ],
-        features: "Designed for everyday performance, featuring a breathable upper and resilient cushioning technology."
-    }
+  {
+    id: "train-001",
+    name: "Book 1 Flagstaff",
+    Price: 2000,
+    gender: "Men's Workout Shoe",
+    Color: "3 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fa6b662a-6a24-427f-b54a-c99374f4546d/BOOK+1+BLUE.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/592a7428-d554-4898-a0dd-91696bed26e7/BOOK+1.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/701635f2-75d5-474c-bcb4-1a133d27ade2/BOOK+1+TEXT.png",
+    ],
+    features:
+      "Designed for agility and speed, with superior grip, lightweight cushioning, and a supportive fit.",
+  },
+  {
+    id: "train-002",
+    name: "Speedcat OG",
+    Price: 1950,
+    gender: "Men's Basketball Shoes",
+    Color: "1 Color",
+    image: [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/401700/04/sv01/fnd/PNA/fmt/png/Speedcat-OG-Toddlers'-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/401700/05/sv01/fnd/PNA/fmt/png/Speedcat-OG-Toddlers'-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/401700/07/sv01/fnd/PNA/fmt/png/Speedcat-OG-Toddlers'-Sneakers",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "train-003",
+    name: "Speedcat mid",
+    Price: 1050,
+    gender: "Men's Running Sneaker",
+    Color: "1 Color",
+    image: [
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/400384/01/sv01/fnd/PNA/fmt/png/Speedcat-Mid-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/400384/01/mod01/fnd/PNA/fmt/png/Speedcat-Mid-Sneakers",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/400384/01/fnd/PNA/fmt/png/Speedcat-Mid-Sneakers",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "train-004",
+    name: "GAZELLE BOLD SHOES",
+    Price: 1750,
+    gender: "Women's Running Sneaker",
+    Color: "3 Colors",
+    image: [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c6722c1f95be4187b9727ecd6d957cf9_9366/Adizero_EVO_SL_Shoes_White_JR5841_01_00_standard.jpg",
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/7459e24ecc9544cf8e9dbc19c9e9fcf7_9366/Adizero_EVO_SL_Shoes_Black_JP7147_01_00_standard.jpg",
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/ed29d1744afa4d8ea83077de3f7bb287_9366/Adizero_EVO_SL_Shoes_White_JH6208_01_00_standard.jpg",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "train-005",
+    name: "Samba Messi Indoor Soccer Shoes Kids",
+    Price:1750,
+    gender: "Kids' Sports Shoes",
+    Color: "2 Colors",
+    image: [
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/f935e32669d54634ac95fdbfed325aa7_9366/Samba_Messi_Indoor_Soccer_Shoes_Kids_Black_JR6349_01_00_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/337d3699f47940e1817b4e2270a2d77a_9366/Samba_Messi_Indoor_Soccer_Shoes_Kids_Pink_JR0424_01_00_standard_hover.jpg",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "train-006",
+    name: "Supernova Rise 2 Running Shoes",
+    Price: 1140,
+    gender: "Men's Running Sneakers",
+    Color: "3 Colors",
+    image: [
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/063fb73aa7474c3a8ea43cc5c5015313_9366/F50_Elite_Firm_Ground_Soccer_Cleats_Kids_Blue_IE1306_22_model.jpg",
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/ad6a0e1ec70f418c95d16c435b050ed6_9366/F50_Elite_Firm_Ground_Soccer_Cleats_Kids_White_IE1305_01_00_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/6acbff944037450591d67c90753f1e46_9366/F50_Elite_Firm_Ground_Soccer_Cleats_Kids_Blue_IE1306_01_00_standard_hover.jpg",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "train-007",
+    name: "Predator League Fold-Over Kids",
+    Price: 1200,
+    gender: "Kids' Sports Shoes",
+    Color: "2 Colors",
+    image: [
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/f21aa5628ad04d8abc92ea9ecd2f46fc_9366/Predator_League_Fold-Over_Tongue_Firm_Ground_Soccer_Cleats_Kids_Red_ID3830_01_00_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/1f95321d141042e7ba8bc456c9ed9777_9366/Predator_League_Fold-Over_Tongue_Firm_Ground_Soccer_Cleats_Kids_White_ID3831_01_00_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f90d3feaf3c4d4280270c87cb280100_9366/Predator_League_Firm-Multi-Ground_Soccer_Cleats_Kids_Green_ID3748_01_00_standard_hover.jpg",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "train-008",
+    name: "Predator Multi-Ground Soccer Cleats Kids",
+    Price:2000,
+    gender: "Kids' Sports Shoes",
+    Color: "3 Colors",
+    image: [
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/44660dca0d404fdd82b6c249b6cbaa3b_9366/Predator_League_Firm-Multi-Ground_Soccer_Cleats_Kids_Black_ID3749_01_00_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/5e69ef77cbc6473ebef6339e89a1dac7_9366/Predator_League_Firm-Multi-Ground_Soccer_Cleats_Kids_Red_ID3750_01_00_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f90d3feaf3c4d4280270c87cb280100_9366/Predator_League_Firm-Multi-Ground_Soccer_Cleats_Kids_Green_ID3748_01_00_standard_hover.jpg",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
+  {
+    id: "train-009",
+    name: "Air Jordan Mule",
+    Price: 1300,
+    gender: "Women's Golf Shoes",
+    Color: "4 Colors",
+    image: [
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e207f0ee-138d-4d9b-9e01-c712d4c85f0b/AIR+JORDAN+MULE.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c1cf2f88-55de-4350-8699-ede463aa67a4/AIR+JORDAN+MULE.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b66577fa-955e-4c53-a82b-3b3f8b7892dc/AIR+JORDAN+MULE.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bfcbed6f-9095-4276-93fa-30836d987033/AIR+JORDAN+MULE.png",
+    ],
+    features: "Built for explosive performance, with responsive cushioning and enhanced traction for quick movements.",
+  },
 ];

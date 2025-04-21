@@ -1,0 +1,10 @@
+/* Custom styles for toast */
+.toast-black {
+    background-color: black !important;   /* Black background */
+    color: white !important;              /* White text */
+    font-size: 14px !important;           /* Smaller font size */
+    padding: 10px 15px !important;        /* Smaller padding */
+    border-radius: 5px !important;        /* Rounded corners */
+    font-weight: 500 !important;          /* Slightly bold text */
+  }
+  

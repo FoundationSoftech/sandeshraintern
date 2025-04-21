@@ -5,13 +5,13 @@ const Banner = () => {
     const words = text.split(" ");
   
     return (
-      <div className="flex items-center w-screen h-[9vh] bg-[#EAEEEF] justify-center">
+      <div className="flex items-center w-screen h-[9vh] bg-[#EAEEEF] justify-center ">
        
-        <h1 className="flex flex-wrap">
+        <h1 className="flex flex-wrap font-normal">
           {words.map((word, index) => (
             <span
               key={index}
-              className="animate-roll-in mr-2 text-2xl font-bold"
+              className="animate-roll-in mr-2 text-2xl font-normal"
               style={{ animationDelay: `${index * 0.5}s` }}
             >
               {word}

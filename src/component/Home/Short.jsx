@@ -38,8 +38,8 @@ const Short = () => {
 
   return (
     <div>
-      <div className='bg-[#F1F2F2] text-[13px] font-normal h-[6vh] flex w-screen justify-evenly items-center overflow-hidden'>
-        <button onClick={prevMessage} className="text-lg font-normal">&lt;</button>
+      <div className='bg-[#F1F2F2] h-[5vh] md:text-[20px]  text-[10px] lg:text-md font-normal  lg:h-[6vh] flex w-screen justify-evenly items-center overflow-hidden'>
+        <button onClick={prevMessage} className="md:text-lg font-normal">&lt;</button>
 
         <div className="w-[60%] h-full flex justify-center items-center relative overflow-hidden">
           <p
@@ -52,7 +52,7 @@ const Short = () => {
           </p>
         </div>
 
-        <button onClick={nextMessage} className="text-lg font-normal">&gt;</button>
+        <button onClick={nextMessage} className="md:text-lg  font-normal">&gt;</button>
       </div>
     </div>
   );

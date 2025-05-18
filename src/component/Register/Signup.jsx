@@ -42,13 +42,14 @@ const Signup = () => {
               "Sign Up & Enjoy These Benefits"
             </motion.h2>
             <motion.div
+            
               variants={containerVariants}
               initial="hidden"
               animate="visible"
-              className="w-full h-[7%] flex mb-5"
+              className="hidden w-full h-[7%] md:flex mb-5"
             >
               <motion.div variants={childVariants} className="w-1/3 h-full flex flex-col justify-center items-center">
-                <div className="mb-[-12px]">
+                <div className="mb-[-12px] ">
                   <Gift className="text-pink-700 text-center" />
                 </div>
                 <h2 className="ml-2 text-sm">

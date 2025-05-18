@@ -97,15 +97,15 @@ const Bag = () => {
   return (
     <>
       <Header />
-      <main className="w-full flex gap-6 p-8 bg-gray-50">
-        <div className="w-full md:w-2/3 bg-white p-6 rounded-lg shadow-lg">
+      <main className="w-full  sm:flex  gap-6 p-8 bg-gray-50">
+        <div className="  w-full md:w-2/3 bg-white p-6 rounded-lg shadow-lg">
           <h1 className="text-2xl font-semibold text-gray-700 mb-6">Your Bag</h1>
 
           {favoriteItems.length > 0 ? (
             favoriteItems.map(item => (
               <div
                 key={item.id}
-                className="border-b border-gray-200 py-4 flex items-center justify-between"
+                className="border-b border-gray-200 py-4  flex flex-col items-center justify-between"
               >
                 <FavList
                   item={item}
@@ -119,7 +119,7 @@ const Bag = () => {
           )}
         </div>
 
-        <div className="w-full md:w-1/3  h-[80vh] bg-white p-6 rounded-lg shadow-lg">
+        <div className="w-full md:w-1/3  h-auto md:h-[80vh] bg-white p-6 rounded-lg shadow-lg">
           <h2 className="text-xl font-semibold text-gray-700 mb-4">Summary</h2>
 
           <div className="mb-6">
@@ -131,7 +131,7 @@ const Bag = () => {
               className="cursor-pointer text-blue-600"
             />
             {isPromoVisible && (
-              <div className="mt-4">
+              <div className="md:mt-4 mt-5">
                 <input
                   type="text"
                   placeholder="Enter Promo Code"
@@ -149,7 +149,7 @@ const Bag = () => {
             )}
           </div>
 
-          <div className="mb-4 flex justify-between text-gray-700">
+          <div className="mb-4 flex justify-between   text-gray-700">
             <span>SubTotal</span>
             <span>{nepaliFormatter.format(total)}</span>
           </div>
@@ -163,10 +163,11 @@ const Bag = () => {
           </div>
           <div className="mb-4 flex justify-between text-gray-700">
             <span>
-              Discount Total <span className="text-green-600">30%</span>
+              Discount Total <span className="text-green-600">10%</span>
             </span>
-            <span>{nepaliFormatter.format(total * 0.3)}</span>
+            <span>{nepaliFormatter.format(total * 0.1)}</span>
           </div>
+
           <div className="flex justify-center text-gray-600 mt-4">
             <p className="text-center">
               You qualify for Free Shipping as a Member!{' '}
@@ -222,8 +223,8 @@ export const FavList = ({ item, quantities, setQuantities }) => {
         />
       </div>
       <div className="w-2/4 pl-6">
-        <h2 className="text-lg font-semibold text-gray-800">{item.name}</h2>
-        <p className="text-sm text-gray-500">{item.gender}</p>
+        <h2 className="md:text-lg text-sm font-semibold text-gray-800">{item.name}</h2>
+        <p className="text-sm md:text-lg  text-gray-500">{item.gender}</p>
       </div>
       <div className="w-1/4 text-center">
         <div className="flex justify-center items-center gap-2 mb-2">
@@ -236,13 +237,14 @@ export const FavList = ({ item, quantities, setQuantities }) => {
           </button>
           <span>{quantities[item.id]}</span>
           <button
+
             onClick={decrement}
             className="bg-gray-200 p-2 rounded-full hover:bg-gray-300 transition"
           >
             -
           </button>
         </div>
-        <p className="text-xl font-semibold text-gray-800">
+        <p className="md:text-xl font-semibold text-gray-800">
           {nepaliFormatter.format(item.Price)}
         </p>
       </div>

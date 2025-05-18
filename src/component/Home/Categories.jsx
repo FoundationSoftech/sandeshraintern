@@ -35,7 +35,7 @@ const Categories = () => {
   ];
 
   return (
-    <div className="w-[93%] h-[90vh] ml-[10vh] grid grid-cols-2 gap-4">
+    <div className="w-[93%]  h-[90vh] lg:ml-[10vh] mx-auto  flex flex-col justify-center  lg:grid lg:grid-cols-2 gap-4">
       {boxes.map((box, index) => {
         // Using Intersection Observer to trigger animation when in view
         const { ref, inView } = useInView({
@@ -57,7 +57,7 @@ const Categories = () => {
            <motion.img
               src={box.image}
               alt={box.text}
-              className="w-full h-full object-cover rounded-md transition-all duration-300 group-hover:blur"
+              className="w-full lg:h-full h-[150%] object-cover rounded-md transition-all duration-300 group-hover:blur"
               initial={{ x: slideDirection, opacity: 0 }}
               animate={{
                 x: inView ? 0 : slideDirection,

@@ -117,29 +117,73 @@ const ShowDetails = () => {
   return (
     <div>
       <Header />
-      <div className="shoedetails w-screen mt-3">
-        <div className="details w-[90%] h-[110vh] mx-auto flex border">
+      <div className="">
+
+      <div className="productimage w-screen  h-auto lg:hidden flex  items-center overflow-hidden ">
+        <div className=" w-1/2 md:w-[35%] flex flex-col mt-3 justify-center items-center  border-box "  >
+{shoe.image.map((img,index)=>(  <img className="w-[60%]  lg:hidden" onClick={()=>setShoeImage(img)} key={index} src={img}/>
+))}            
+          </div>
+        <div className="w-2/3  md:mr-4 flex justify-center ">
+
+            {shoeimage ? (
+              <img className="mt-5 w-[100%] " src={shoeimage} alt="Selected Shoe" />
+            ) : (
+              <p>No Image Available</p>
+            )}
+            </div>
+      
+
+      </div>
+      <div className="  flex flex-col  lg:hidden mt-3 items-center">
+        <div className="w-[100%] border space-y-3 flex flex-col items-center ">
+
+                <button className="border p-2 border-black text w-[70%] rounded-md bg-black text-white" onClick={addtoBag}>Add to cart</button>
+        <button className="border p-2 border-black w-[70%] rounded-md" onClick={showNotification}>Favorite</button>
+        </div>
+        <div className="w-100%">
+
+          <h1 className="mt-9 w-[100%] underline font-medium  ">Features</h1>
+          <ul className="flex flex-col  items-start justify-start w-[100%] ">
+
+                {shoe.features.split(",").map((feat, index) => (
+                  <li className="  font-normal " key={index}>
+                    {feat}
+                  </li>
+                ))}
+                </ul>
+        </div>
+        
+
+
+        
+                <div>
+
+        </div>
+      </div>
+      <div className="shoedetails w-screen  mt-3 hidden lg:block">
+        <div className="details w-[90%]  h-[110vh] mx-auto flex border">
           <div className="imgscrolls h-full flex flex-col items-center w-[24%] mt-[7vh]">
             {shoe.image?.map((img, index) => (
               <img
-                className="w-[39%] h-[13%] cursor-pointer mt-3"
-                key={index}
-                onMouseEnter={() => setShoeImage(img)}
-                src={img}
-                alt="shoe"
+              className="w-[39%] h-[13%] cursor-pointer mt-3"
+              key={index}
+              onClick={() => setShoeImage(img)}
+              src={img}
+              alt="shoe"
               />
             ))}
           </div>
 
           <div className="productimage w-[50%]">
             {shoeimage ? (
-              <img className="mt-5" src={shoeimage} alt="Selected Shoe" />
+              <img className="mt-5 w-[100%]" src={shoeimage} alt="Selected Shoe" />
             ) : (
               <p>No Image Available</p>
             )}
           </div>
 
-          <div className="productdetails mt-1 w-[26%] h-screen p-4 flex flex-col ml-[-15px]">
+          <div className="productdetails mt-1 w-[26%] h-screen p-4 flex  flex-col ml-[-15px]">
             <div className="flex flex-col justify-center items-start ml-[12px] w-[110%]">
               <h1 className="mb-[-24px] text-[18px] text-xl capitalize font-semibold">
                 {shoe.name}
@@ -154,11 +198,11 @@ const ShowDetails = () => {
 
             <div className="shoesize flex flex-col">
               <Shoesize />
-              <div className="fav w-full h-[10vh] mb-3 flex flex-col gap-2">
+              <div className="fav w-full  h-[10vh] mb-3 flex flex-col gap-2">
                 <div
                   onClick={addtoBag}
                   className="cursor-pointer ml-3.5 border p-2 border-black h-[8vh] w-[16] rounded-lg flex justify-center items-center bg-black text-white hover:bg-gray-700"
-                >
+                  >
                   <h1 className="text-white font-medium">
                     Add To Bag
                   </h1>
@@ -166,7 +210,7 @@ const ShowDetails = () => {
                 <div
                   onClick={showNotification}
                   className="cursor-pointer ml-3.5 border p-2 border-black h-[8vh] w-[16] rounded-lg flex justify-center items-center bg-white text-black"
-                >
+                  >
                   <h1 className=" font-semibold" >
                   Favorite                  </h1>
                 </div>
@@ -187,6 +231,7 @@ const ShowDetails = () => {
           <Scroller Blocks={Arrivals} title="Fresh Drop" link="newarrival" />
         </div>
       </div>
+                </div>
       <Footer />
 
 

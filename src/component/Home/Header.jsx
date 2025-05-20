@@ -177,7 +177,7 @@ changeDetail(prev=>!prev)
 
             
             <div  onClick={toggleFavorites} className="relative">
-              {favorites.length >0? <p className='absolute text-white  right-2  text-[10px] mr-[-1px] bottom-[10px] cursor-pointer'>{favorites.length}</p>:<p></p>}
+              {favorites.length >0? <p className='absolute text-white  right-3  text-[10px] mr-[-1px] bottom-[15px] cursor-pointer'>{favorites.length}</p>:<p></p>}
               <i
               
                 className="cursor-pointer fa-solid fa-cart-shopping md:text-2xl text-xl hover:text-orange-300 transition-all delay-100"
@@ -209,6 +209,7 @@ changeDetail(prev=>!prev)
                         ))}
                     </ul>
                   )}
+
                   
                   {favorites.length>0 ? <p className='cursor-pointer' onClick={()=>{
                     navigate('/bag')
